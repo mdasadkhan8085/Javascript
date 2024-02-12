@@ -1,24 +1,14 @@
-//Simple Print
-console.log("Hello Asad");
+let myArray = ["ABC", "DEF", "GHI", "JKL"];
 
-//Variable is temperory space location
-//Simple Variable Decaration
+delete myArray[1];
 
-//String
-var myName = "Asad Khan";
-console.log(myName);
-
-//Number
-var phoneNumber = 8080859144;
-console.log(phoneNumber);
-
-//Boolean
-var isMale = true;
-console.log(isMale);
-
-//Double
-var pi = 3.14;
-console.log(pi);
+// for (let elementIndex in myArray) {
+//     console.log(elementIndex);
+//     console.log("Hello " + myArray[elementIndex]);
+// }
 
 
-console.log(typeof pi);
+for (let elementIndex of myArray) {
+    console.log(elementIndex);
+
+}
